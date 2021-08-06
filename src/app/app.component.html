@@ -1,0 +1,36 @@
+<h1>Title: {{title}}</h1>
+<div>
+<button (click)="fun()">click</button>
+
+</div>
+<br>
+<br>
+<div>
+  <input type="text" [(ngModel)]="temp">
+  <h1>{{temp}}</h1>
+</div>
+
+<ul>
+
+  <div>
+<table *ngIf="student" >
+  <tr style="background-color: blueviolet;">
+    <th>Name</th>
+    <th>age</th>
+    <th>city</th>
+    
+
+  </tr>
+   <tr *ngFor="let arr of student" >
+      <td [title]="arr.name">{{arr.name}}</td>
+      <td>{{arr.age}}</td>
+      <td>{{arr.city}}</td>
+      
+
+   </tr>
+
+</table>
+</div>
+
+
+</ul>

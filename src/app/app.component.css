@@ -1,0 +1,29 @@
+.h1{
+    background-color: green;
+    color:red;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+tr{
+   
+}
+th{
+    text-align: center;
+    padding: 10px;
+    background-color:orange;
+}
+td{
+    text-align: center;
+    padding: 20px;
+    border: 5px solid saddlebrown;
+   
+    
+    
+}
+td:hover{
+    background-color: palegreen;
+}
